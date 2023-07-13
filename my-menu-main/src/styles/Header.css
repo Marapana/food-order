@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: white;
+}
+
+.header .demo-logo img {
+    width: 5em;
+    height: 5em;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.ant-btn {
+    margin: 1em;
+    font-weight: bold;
+}
